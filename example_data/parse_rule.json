@@ -1,0 +1,41 @@
+[{
+		"hostname": "news.163.com",
+		"fields": [{
+			"name": "title",
+			"selector": "/html[@id='ne_wrap']/body/div[@class='post_header']/div[@class='post_content post_area clearfix']/div[@id='epContentLeft']/h1"
+		}, {
+			"name": "content",
+			"selector": "/html[@id='ne_wrap']/body/div[@class='post_header']/div[@class='post_content post_area clearfix']/div[@id='epContentLeft']/div[@class='post_body']/div[@id='endText']"
+		}, {
+			"name": "channel",
+			"selector": "/html[@id='ne_wrap']/body/div[@class='post_header']/div[@class='post_content post_area clearfix']/div[@class='clearfix']/div[@class='post_crumb']"
+		}, {
+			"name": "published_date",
+			"type": "date",
+			"selector": "/html[@id='ne_wrap']/body/div[@class='post_header']/div[@class='post_content post_area clearfix']/div[@id='epContentLeft']/div[@class='post_time_source']"
+		}, {
+			"name": "autor",
+			"selector": "/html[@id='ne_wrap']/body/div[@class='post_header']/div[@class='post_content post_area clearfix']/div[@id='epContentLeft']/div[@class='post_time_source']/a[@id='ne_article_source']"
+		}]
+	},
+	{
+		"hostname": "news.sina.com.cn",
+		"fields": [{
+			"name": "title",
+			"selector": "/html/body/div[@class='main-content w1240']/h1[@class='main-title']"
+		}, {
+			"name": "content",
+			"selector": "/html/body/div[@class='main-content w1240']/div[@id='article_content']/div[@class='article-content-left']/div[@id='article']"
+		}, {
+			"name": "channel",
+			"selector": "/html/body/div[@class='main-content w1240']/div[@class='path-search']/div[@class='path']/div[@class='channel-path']/a"
+		}, {
+			"name": "published_date",
+			"type": "date",
+			"selector": "/html/body/div[@class='main-content w1240']/div[@id='top_bar_wrap']/div[@id='top_bar']/div[@class='top-bar-inner clearfix']/div[@class='date-source']/span[@class='date']"
+		}, {
+			"name": "author",
+			"selector": "/html/body/div[@class='main-content w1240']/div[@id='top_bar_wrap']/div[@id='top_bar']/div[@class='top-bar-inner clearfix']/div[@class='date-source']/a[@class='source']"
+		}]
+	}
+]

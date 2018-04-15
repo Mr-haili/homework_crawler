@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "declaration": true,
+    "target": "es5",
+    "lib": [ "es2017", "es6" ],
+    "baseUrl": "./src",
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "filesGlob": [
+    "**/*.ts"
+  ]
+}
